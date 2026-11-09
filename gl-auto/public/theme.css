@@ -88,3 +88,8 @@ dialog::backdrop { background: #000a; }
 .shoot-block { border-left-color: var(--gold); }
 .post-block { border-left-color: #fff; }
 .drop { border-color: var(--gold-dark); color: var(--gold); }
+
+/* Approved scripts turn green */
+.event.approved { background: #0e2a17; color: #7fe3a2; border-style: solid; border-width: 0 0 0 3px; border-color: #34c46a; }
+.event.approved small { color: #5fbf83; }
+.status.approved { background: #0e2a17; color: #7fe3a2; border: 1px solid #34c46a; }
